@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-section {
+  display: flex;
+  margin: left 1000px;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-family: Inter;
+  width: 562px;
+  height: 112px;
+  font-size: 49px;
+  font-weight: 400;
+
+  margin: 72px auto 32px;
+}
+.title span {
+  font-weight: 700;
+}
+.span {
+  color: #f90;
+}
+
+.text {
+  color: #7d7987;
+  text-align: center;
+  font-family: Open Sans;
+  width: 592px;
+  height: 140px;
+  margin-bottom: 80px;
+}
+
+.text span {
+  font-weight: 700;
+}
+
+footer {
+  display: flex;
+  gap: 40px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 33px;
+}
+footer a {
+  color: #f90;
+  text-decoration: none;
+}
