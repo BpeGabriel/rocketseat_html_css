@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1005px;
+  height: 23px;
+  margin: 65px auto 109px;
+}
+
+header p {
+  font-family: Inter;
+  color: #89c5cc;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+header nav {
+  display: flex;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  gap: 48px;
+}
+
+header nav a {
+  color: #7d7987;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: #1f1534;
+  font-weight: 700;
+}
+
+.container {
+  height: 434px;
+  display: flex;
+  flex: 1 0 auto;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 82px;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  height: 332px;
+  width: 489px;
+  margin-right: 102px;
+}
+.title {
+  color: #000;
+  font-family: Mulish;
+  font-size: 49px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.title strong {
+  color: #89c5cc;
+  font-family: Mulish;
+  font-size: 49px;
+  font-weight: 700;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  width: 438px;
+  text-align: left;
+  color: #7d7987;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 28px;
+  gap: 18px;
+}
+.description .text {
+  display: inline;
+  width: 365px;
+}
+.text strong {
+  font-weight: 700;
+}
+
+button {
+  display: inline-flex;
+  width: 179px;
+  padding: 14px 32px 15px 32px;
+  margin-top: 12px;
+  background-color: #69b99d;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: DM Sans;
+  border-radius: 4px;
+  border: none;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+
+  justify-content: center;
+  position: relative;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+footer a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.img-rodape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 0;
+}
